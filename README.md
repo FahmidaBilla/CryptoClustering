@@ -12,6 +12,9 @@ For this challenge, I've used my knowledge of Python and unsupervised learning t
 - Plot the data to see what's in your DataFrame
 
 
+![data_plot](https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/86171345-6226-4236-9a74-bb7b53f6f705)
+
+
 
 
 
@@ -21,6 +24,9 @@ For this challenge, I've used my knowledge of Python and unsupervised learning t
 - Create a DataFrame with the scaled data
 - Set the coinid column as index
 - Display sample data
+
+
+<img width="1163" alt="market_data" src="https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/6327620e-51f3-4510-af5b-1540a2b8587e">
 
 
 
@@ -36,6 +42,9 @@ For finding the best value for k using the original data, I've used the Elbow Cu
 
 The Elbow Curve indicates that the best value for k is 4.
 
+
+
+![Elbow_Curve](https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/387f389b-e09a-4ceb-99a0-e01d8e4f4fc9)
 
 
 
@@ -57,6 +66,9 @@ For this step, I've used the K-Means modem to cluster Cryptocurrencies using the
 
 
 
+![scatter_plot](https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/e5b87ff7-cdd1-4076-b95c-65d65db6f75c)
+
+
 
 
 ## Step 5: Optimize Clusters with Principal Component Analysis
@@ -73,6 +85,10 @@ Following are the steps for optimizing clusters with Principal Component Analysi
 - Set the coinid column as index
 
 
+<img width="366" alt="step_5" src="https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/f9ff256f-6fd2-4274-84cb-a60cc7d26800">
+
+
+
 
 ## Step 6: Find the Best Value for k Using the PCA Data
 
@@ -85,6 +101,10 @@ I've used the elbow method on the PCA data to find the best value for k using th
 - Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
 The best value for k when using the PCA data can be identified as 4 as shown in the elbow curve below. This is similar to the best k value found using the original data.
+
+
+
+![Elbow_Curve_pca](https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/a1dfdd26-ecbf-409d-85a0-1072c39fc270)
 
 
 
@@ -105,6 +125,11 @@ To cluster the cryptocurrencies for the best value for k on the PCA data:
 
 
 
+![scatter_plot_pca](https://github.com/FahmidaBilla/CryptoClustering/assets/120361200/ac903428-5150-4e06-a245-723fe3b4f7d0)
+
+
+
+
 
 ## Step 8: Visualize and Compare the Results
 
@@ -113,6 +138,7 @@ The results are visualized and compared by completing the following steps:
 - Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve created from the original data with the one created from the PCA data.
 
 - Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data.
+
 
 
 **Question:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
